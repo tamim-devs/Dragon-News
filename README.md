@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📰 Dragon News
 
-## Getting Started
+## Overview
+Dragon News is a dynamic news portal built with Next.js. It includes a complete authentication system with email/password login, social login (Google & GitHub), and email verification. The project also demonstrates efficient state management using Context API to avoid prop drilling.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objectives
+- Implement secure authentication system
+- Integrate Google & GitHub social login
+- Handle protected routes using middleware
+- Use Context API for global state management
+- Build a scalable news portal using Next.js App Router
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Frontend**
+- Next.js 16
+- React 19
+- Tailwind CSS
+- DaisyUI
 
-## Learn More
+**Backend & Auth**
+- Better Auth
+- MongoDB
 
-To learn more about Next.js, take a look at the following resources:
+**Libraries**
+- react-hook-form
+- react-icons
+- react-fast-marquee
+- date-fns
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+### Authentication
+- Email & password login/register
+- Logout system
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Social Login
+- Google authentication
+- GitHub authentication
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Email Verification
+- Account verification after registration
+
+### News System
+- Dynamic news display
+- Category-based filtering
+- Trending news
+- Today's pick section
+
+### UI/UX
+- Responsive design
+- Clean layout
+- Marquee for breaking news
+
+---
+
+## Project Structure
